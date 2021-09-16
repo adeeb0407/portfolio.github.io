@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio.github.io/static/css/main.61a0bfb9.chunk.css",
+    "main.js": "/portfolio.github.io/static/js/main.2cd0c525.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.2cd0c525.chunk.js.map",
+    "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.cf8b33d6.js",
+    "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.cf8b33d6.js.map",
+    "static/css/2.18d5ce31.chunk.css": "/portfolio.github.io/static/css/2.18d5ce31.chunk.css",
+    "static/js/2.59470ac5.chunk.js": "/portfolio.github.io/static/js/2.59470ac5.chunk.js",
+    "static/js/2.59470ac5.chunk.js.map": "/portfolio.github.io/static/js/2.59470ac5.chunk.js.map",
+    "static/js/3.9f15d35f.chunk.js": "/portfolio.github.io/static/js/3.9f15d35f.chunk.js",
+    "static/js/3.9f15d35f.chunk.js.map": "/portfolio.github.io/static/js/3.9f15d35f.chunk.js.map",
+    "index.html": "/portfolio.github.io/index.html",
+    "static/css/2.18d5ce31.chunk.css.map": "/portfolio.github.io/static/css/2.18d5ce31.chunk.css.map",
+    "static/css/main.61a0bfb9.chunk.css.map": "/portfolio.github.io/static/css/main.61a0bfb9.chunk.css.map",
+    "static/js/2.59470ac5.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.59470ac5.chunk.js.LICENSE.txt",
+    "static/media/card.css": "/portfolio.github.io/static/media/Amazon-Logo.b136f849.png",
+    "static/media/Resume.pdf": "/portfolio.github.io/static/media/Resume.22aa50f3.pdf",
+    "static/media/adeeb.c2808979.png": "/portfolio.github.io/static/media/adeeb.c2808979.png",
+    "static/media/cafe.jpg": "/portfolio.github.io/static/media/cafe.32ad7c1a.jpg",
+    "static/media/gridmetro.jpg": "/portfolio.github.io/static/media/gridmetro.d6be486a.jpg",
+    "static/media/hostcloud.jpg": "/portfolio.github.io/static/media/hostcloud.ea0b9c7e.jpg",
+    "static/media/plot.jpg": "/portfolio.github.io/static/media/plot.33f8a2d9.jpg",
+    "static/media/simple.jpg": "/portfolio.github.io/static/media/simple.db4f60e8.jpg",
+    "static/media/wallpaper-intro.9ea9940c.png": "/portfolio.github.io/static/media/wallpaper-intro.9ea9940c.png",
+    "static/media/zay.jpg": "/portfolio.github.io/static/media/zay.a9e3d1be.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf8b33d6.js",
+    "static/css/2.18d5ce31.chunk.css",
+    "static/js/2.59470ac5.chunk.js",
+    "static/css/main.61a0bfb9.chunk.css",
+    "static/js/main.2cd0c525.chunk.js"
+  ]
+}

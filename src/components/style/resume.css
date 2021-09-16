@@ -1,0 +1,37 @@
+@import  url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.resumeSection{
+  display: flex;
+  justify-content: center;
+}
+.ResumeDownload{
+  font-size: 25px;
+  width: 13%;
+  background-color: transparent;
+  border: 2px solid hsl(180, 62%, 55%);
+  font-family: Montserrat;
+  border-radius: 25px 0 25px 0;
+}
+.ResumeDownload:hover{
+  background-color: hsl(180, 62%, 55%);;
+}
+.ResumeDownload a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.ResumeDownload a:hover {
+  text-decoration: none;
+}
+
+@media  (max-width: 1300px) {
+  .ResumeDownload{
+    width: 10%;
+    font-size: 15px;
+  }
+}
+@media  (max-width: 1300px) {
+  .ResumeDownload{
+    width: auto;
+    font-size: 20px;
+  }
+}

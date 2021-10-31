@@ -1,0 +1,124 @@
+*{
+    transition: all 0.5s ease;
+    scroll-behavior: smooth;
+}
+.subHeadings {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  font: normal 50px Montserrat, sans-serif;
+  color: #e74c3c;
+  font-weight: bolder;
+}   
+.subHeadings-2 {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-left: 10%;
+  font: normal 50px Montserrat, sans-serif;
+  color: var(--cyan);
+  font-weight: bolder;
+  font-size: 30px;
+}   
+.subHeadings:hover{
+    color: white;  
+text-decoration: underline;
+transition: 1s ease;
+}
+.aboutmeCaption{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right: 10%;
+    font: 20vh Montserrat, sans-serif;
+    letter-spacing: 3px;
+    border-left: 8px solid #e74c3c;
+    border-right: 8px solid #e74c3c;
+    margin-bottom: 80px;
+    border-radius: 10px;
+}
+#aboutmeInfo{
+        font-size: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+}
+ #zay figure h1, #ping figure h1, #contactregister figure h1{
+    color: black;
+} 
+#work{
+    margin-top: 80px;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.category h3 {
+    background-color: #D2D2D0;
+    border-radius: 0 0 25px 25px;
+    color: #3A3A42;
+    padding: 10px 20px 10px 20px;
+    border-left: 8px solid #e74c3c;
+    margin: 10px 0 70px 50px;
+    padding-left: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.projectLink:hover{
+    text-decoration: none;
+}
+.projectLink:active{
+    text-decoration: none;
+}
+.category h3:hover{
+    background-color: #3A3A42;
+    color: #F9D401;
+    text-decoration: none;
+    color: white;
+}
+.category a:active{
+    text-decoration: none;
+    color: #e74c3c;
+}
+
+.rotate {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@media (max-width:900px){
+    #about{
+        margin-top: 300px;
+    }
+    .subHeadings{
+        font: normal 30px Montserrat, sans-serif;
+        font-weight: bolder;
+    }
+}
+
+@media (max-width: 600px){
+    .aboutmeCaption h1{
+        margin-left: 0px;
+        margin-right: 0px;
+        font: 4vh Montserrat, sans-serif;
+        letter-spacing: 0px;
+    }
+    #aboutmeInfo{
+        margin-left: 5%;
+        margin-right: 5%;
+}
+}
+@media (max-width: 400px){
+    .aboutmeCaption h1{
+        font-size: 20px;
+    }
+    #aboutmeInfo{
+        font-size: 15px;
+    }
+    #zay figure h1 {
+        font-size: 45px;
+    }
+}

@@ -16,7 +16,7 @@ const Resume = () => {
         id = 'resume' data-aos="fade-down">Resume&nbsp;<p><FileCopyIcon style ={{fontSize: '90%'}} /> </p></h1>
         <div className = 'resumeSection'>
     <button className="ResumeDownload">
-    <a href = {resume.downloadURL} target = '_blank'>
+    <a href = {resume.downloadURL} target = '_blank' rel="noreferrer">
 <span>Download Resume <CloudDownloadIcon style = {{fontSize : '30px'}}/></span>
         </a>
         </button>

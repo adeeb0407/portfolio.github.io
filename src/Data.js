@@ -124,6 +124,24 @@ const firebaseproject = [
     }
 ]
 
+const mernProject = [
+    {
+        id: 'socialfront',
+        projectTitle : 'SocialFront',
+        imageSource : require('./components/image/socialfont.jpg').default,
+        moreInfoTitle : 'Website Summary',
+        information : "Social Media App Similar to Instagram (Still Under Development)",
+        projectLink : 'https://socialfrontapp.netlify.app/',
+    },
+    {
+        id: 'suszo',
+        projectTitle : 'SusZo',
+        imageSource : require('./components/image/suszologo.jpg').default,
+        moreInfoTitle : 'Website Summary',
+        information : "Social Media App with a Different approach of interating with registred users and Visitors",
+        projectLink : 'https://suszo.netlify.app/',
+    },
+]
 const workExperience = [
     {
         id : 'amazon',
@@ -140,4 +158,4 @@ const resume = {
 }
 
 
-export {intro, workingSoftwares, aboutme, projectCardInfoMiniApp, projectCardInfoStaticWebsite,firebaseproject, workExperience, resume}
+export {intro, workingSoftwares, aboutme, projectCardInfoMiniApp, projectCardInfoStaticWebsite,firebaseproject, mernProject, workExperience, resume}
